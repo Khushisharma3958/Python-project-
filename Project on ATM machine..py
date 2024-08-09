@@ -29,7 +29,7 @@ class ATMCard:
     def validate_cvv(self, input_cvv):
         return input_cvv == self.__cvv
 
-s
+
 my_card = ATMCard(
     card_number="1234 5678 9012 3456",
     expiration_date="12/25",
